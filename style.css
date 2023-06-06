@@ -1,0 +1,88 @@
+/*impostazioni generali*/
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.484);
+    width: 800px;
+    height: 600px;
+    margin:auto;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+
+/*intestazione*/
+header{
+    text-align: center;
+    color: rgb(31, 221, 31); 
+}
+
+header img{
+    width: 20%;
+    margin-top: 7%;  
+}
+
+header h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+nav{
+    width: 700px;
+    height: 20px;
+    margin:auto;
+    padding: 10px 0;
+    background-color: rgb(31, 221, 31);
+}
+/*fine intestazione*/
+
+
+/*contenuto principale*/
+main{
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    color: white;    
+}
+
+main article{
+    margin-top: 20px;
+}
+
+article h3{
+    display: inline-block;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+/*
+siccome sono di tre colori diverse le barre di 
+carica le ho fatte separate,altrimenti facevo:
+article:last-child{
+    ........
+}
+*/
+#barra-carica1{
+    width: 200px;
+    height: 20px;
+    background: #0060A0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#barra-carica2{
+    width: 400px;
+    height: 20px;
+    background: #29974a;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#barra-carica3{
+    width: 300px;
+    height: 20px;
+    background: #bb2e2e;
+    border-radius: 10px 10px 10px 10px;
+}
+/*fine contenuto principale*/
